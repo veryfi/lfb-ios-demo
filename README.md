@@ -4,7 +4,7 @@ A minimal native iOS app that runs [Veryfi Lens for Browser](https://docs.veryfi
 
 The app serves a small web page from `http://127.0.0.1` inside the app and loads it in a full-screen web view. From that page you can:
 
-- Start a capture with the **Receipt** (`document`), **Long receipt** (`long_document`), **Check** (`checks`), or **Anydocs** (`anydocs`) flavor.
+- Start a capture with the **Receipt** (`document`), **Long receipt** (`long_document`), **Check** (`checks`), or **Anydocs** (`anydocs`) flavor. Anydocs opens the blueprint picker (`enableBlueprintsModal: true`) before the camera, and the chosen blueprint is sent as `blueprint_name`.
 - Start a **Decoupled receipt** capture: the `document` flavor with `packageMode: false` and a `customSubmitHandler` ([decoupled submission, mode 2](https://docs.veryfi.com/lens/browser-v3/advanced/decoupled_submission/#mode-2-custom-submit-handler)). The Submit button stays; on tap Lens passes the base64 image to the handler (package info is `null`) instead of submitting to Veryfi, so no document is processed.
 - See every document submitted in the current session in a table (flavor, capture time, document ID), with the JSON response for each row expandable. Decoupled rows have no document ID.
 
