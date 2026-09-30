@@ -13,7 +13,7 @@ const MODES = {
     config: { lensFlavor: 'long_document', enableLongReceiptPreview: true },
   },
   checks: { label: 'Check', config: { lensFlavor: 'checks' } },
-  anydocs: { label: 'Anydocs', config: { lensFlavor: 'anydocs' } },
+  anydocs: { label: 'Anydocs', config: { lensFlavor: 'anydocs', enableBlueprintsModal: true } },
   decoupled_document: {
     label: 'Decoupled receipt',
     decoupled: true,
