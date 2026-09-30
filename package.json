@@ -1,0 +1,15 @@
+{
+  "name": "lfb-ios-demo",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "veryfi-lens-wasm": "3.5.8"
+  }
+}

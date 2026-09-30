@@ -1,0 +1,7 @@
+// Copy this file to Signing.xcconfig (git-ignored) and fill in your values.
+// Find your team ID in Xcode > Settings > Accounts, or at
+// https://developer.apple.com/account under Membership details.
+// The bundle ID must be unique to your team.
+
+DEVELOPMENT_TEAM = YOUR_TEAM_ID
+PRODUCT_BUNDLE_IDENTIFIER = com.yourname.lfbiosdemo

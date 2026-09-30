@@ -1,0 +1,8 @@
+// Shared build settings for the LFBiOSDemo target.
+// Personal signing values go in Signing.xcconfig (git-ignored).
+// Copy Signing.example.xcconfig to Signing.xcconfig and fill it in.
+
+DEVELOPMENT_TEAM =
+PRODUCT_BUNDLE_IDENTIFIER = com.example.lfbiosdemo
+
+#include? "Signing.xcconfig"
